@@ -26,7 +26,7 @@ For Bert-large:
 3. Evaluation
 <pre>
     cd glue_eval
-    sh run_glue_together_with_stat.py
+    sh run_glue_together_with_stat.sh
 </pre>
 
 ## Notes
