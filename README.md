@@ -7,7 +7,7 @@ MSG paper: https://arxiv.org/abs/2305.02869
 The following example shows how to run MSG on public Bert Pre-training data.
 1. Pre-processing
 <pre>
-    python run_grow_bert.py
+    preprocess_bert_data.py
 </pre>
 This generates static masks for raw data.
 
