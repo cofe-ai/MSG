@@ -7,7 +7,7 @@ import datasets
 from datasets import load_dataset, load_from_disk, DatasetDict
 from transformers import DataCollatorWithPadding
 import evaluate
-from transformers import set_seed
+from transformers import set_seed, BertTokenizer
 from typing import List, Dict, Any
 
 class DataCollatorNew(DataCollatorWithPadding):
@@ -99,4 +99,5 @@ def shuffle_select():
 
 
 if __name__ == "__main__":
-    prepare_data()
+    tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+    prepare_data(tokenizer)
