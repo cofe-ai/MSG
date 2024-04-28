@@ -37,14 +37,12 @@ You can modify configs/*.json and set "attention_probs_dropout_prob" and "hidden
 
 If this project helps you, please cite us, thanks!
 ```
-@article{DBLP:journals/corr/abs-2305-02869,
-  author       = {Yiqun Yao and
-                  Zheng Zhang and
-                  Jing Li and
-                  Yequan Wang},
-  title        = {2x Faster Language Model Pre-training via Masked Structural Growth},
-  journal      = {CoRR},
-  volume       = {abs/2305.02869},
-  year         = {2023}
+@inproceedings{
+yao2024masked,
+title={Masked Structural Growth for 2x Faster Language Model Pre-training},
+author={Yiqun Yao and Zheng Zhang and Jing Li and Yequan Wang},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=rL7xsg1aRn}
 }
 ```
